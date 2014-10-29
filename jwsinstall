@@ -1,0 +1,8 @@
+/usr/jexus/jws stop
+cd /tmp
+wget http://linuxdot.net/down/jexus-5.6.3.tar.gz
+tar -zxvf jexus-5.6.3.tar.gz
+cd jexus-5.6.3
+./install
+cd /tmp
+rm -rf jexus-5.6.3*
